@@ -1,0 +1,6 @@
+# Настройки сервера Apache
+Options -Indexes
+#DirectoryIndex index.php
+
+# Настройки PHP
+#php_flag display_errors off

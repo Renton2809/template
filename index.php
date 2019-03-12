@@ -1,6 +1,7 @@
 <?php
 include "includes\data.inc.php";
 include "includes\lib.inc.php";
+include "includes\cookie.inc.php";
 ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -18,6 +19,16 @@ include "includes\lib.inc.php";
         <div id="about">
             <div class="container content-lg">
                 <h1><?php echo $header; ?></h1>
+                <blockquote>
+                    <?php
+                        if($visitCounter == 1){
+                            echo "Вы зашли первый раз!";
+                        } else {
+                            echo "Вы зашли к нам $visitCounter раз!<br>";
+                            echo "Последнее посещение $lastVisit<br>";
+                        }
+                    ?>
+                </blockquote>
                 <!-- Область основного контента -->
                 <?php
                     switch($id){

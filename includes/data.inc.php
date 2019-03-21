@@ -28,6 +28,7 @@ $menu = array(
     array('link'=>'Контакты', 'href'=>'index.php?id=contact'),
     array('link'=>'Таблица умножения', 'href'=>'index.php?id=table'),
     array('link'=>'Калькулятор', 'href'=>'index.php?id=calc'),
+    array('link'=>'Гостевая книга', 'href'=>'index.php?id=gbook'),
 );
 
 $title = 'Сайт нашей школы';
@@ -50,6 +51,10 @@ switch($id){
     case 'calc':
         $title = 'Онлайн калькулятор';
         $header = "Калькулятор";
+        break;
+    case 'gbook':
+        $title = 'Гостевая книга';
+        $header = "Гостевая книга";
         break;
 }
 ?>

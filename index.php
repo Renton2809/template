@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include "includes\data.inc.php";
 include "includes\lib.inc.php";
 include "includes\cookie.inc.php";
@@ -43,6 +44,9 @@ include "includes\cookie.inc.php";
                             break;
                         case 'contact':
                             include 'contact.php';
+                            break;
+                        case 'gbook':
+                            include 'gbook.inc.php';
                             break;
                         default:
                             include 'index.inc.php';

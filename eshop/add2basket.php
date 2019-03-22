@@ -1,5 +1,5 @@
 <?php
-	// ïîäêëþ÷åíèå áèáëèîòåê
+	// Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ Ð±Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐº
 	require "inc/lib.inc.php";
 	require "inc/db.inc.php";
 	
